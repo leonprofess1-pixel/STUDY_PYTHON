@@ -9,10 +9,11 @@ def solution(arr, N, M):
         temp_max = 0
         for j in range(i, i+M):
             temp_max += arr[j]
-        if temp_max > [[quiz]]:
-            [[quiz]] = temp_max
-        if temp_max < [[quiz]]:
-            [[quiz]] = temp_max
+            print(temp_max)
+        if temp_max > max_sum:
+            max_sum = temp_max
+        if temp_max < min_sum:
+            min_sum = temp_max
 
     return max_sum - min_sum
 
